@@ -6,8 +6,8 @@ body, body *:not(html):not(style):not(br):not(tr):not(code) {
 }
 
 body {
-    background-color: #F2F4F6;
-    color: #74787E;
+    background-color: #111;
+    color: #FFF;
     height: 100%;
     line-height: 1.4;
     margin: 0;
@@ -24,7 +24,7 @@ blockquote {
 }
 
 a {
-    color: #3869D4;
+    color: #FFDF2B;
 }
 
 a img {
@@ -34,7 +34,7 @@ a img {
 /* Typography */
 
 h1 {
-    color: #2F3133;
+    color: #FFDF2B;
     font-size: 19px;
     font-weight: bold;
     margin-top: 0;
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    color: #2F3133;
+    color: #FFDF2B;
     font-size: 16px;
     font-weight: bold;
     margin-top: 0;
@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-    color: #2F3133;
+    color: #FFDF2B;
     font-size: 14px;
     font-weight: bold;
     margin-top: 0;
@@ -76,7 +76,7 @@ img {
 /* Layout */
 
 .wrapper {
-    background-color: #f5f8fa;
+    background-color: #111;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -102,17 +102,17 @@ img {
 }
 
 .header a {
-    color: #bbbfc3;
+    color: #FFDF2B;
     font-size: 19px;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 0 1px 0 white;
+    text-shadow: 0 1px 0 #E8CD31;
 }
 
 /* Body */
 
 .body {
-    background-color: #FFFFFF;
+    background-color: #111;
     border-bottom: 1px solid #EDEFF2;
     border-top: 1px solid #EDEFF2;
     margin: 0;
@@ -124,7 +124,7 @@ img {
 }
 
 .inner-body {
-    background-color: #FFFFFF;
+    background-color: #111;
     margin: 0 auto;
     padding: 0;
     width: 570px;
@@ -210,14 +210,6 @@ img {
     -webkit-text-size-adjust: none;
 }
 
-.button-blue {
-    background-color: #3097D1;
-    border-top: 10px solid #3097D1;
-    border-right: 18px solid #3097D1;
-    border-bottom: 10px solid #3097D1;
-    border-left: 18px solid #3097D1;
-}
-
 .button-green {
     background-color: #2ab27b;
     border-top: 10px solid #2ab27b;
@@ -232,6 +224,15 @@ img {
     border-right: 18px solid #bf5329;
     border-bottom: 10px solid #bf5329;
     border-left: 18px solid #bf5329;
+}
+
+.button-blue, .button-yellow {
+    color: #111;
+    background-color: #FFDF2B;
+    border-top: 10px solid #FFDF2B;
+    border-right: 18px solid #FFDF2B;
+    border-bottom: 10px solid #FFDF2B;
+    border-left: 18px solid #FFDF2B;
 }
 
 /* Panels */
@@ -257,7 +258,7 @@ img {
 /* Promotions */
 
 .promotion {
-    background-color: #FFFFFF;
+    background-color: #111;
     border: 2px dashed #9BA2AB;
     margin: 0;
     margin-bottom: 25px;
