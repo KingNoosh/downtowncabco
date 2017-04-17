@@ -168,6 +168,8 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
 
+        'Fideloper\Proxy\TrustedProxyServiceProvider',
+
         /*
          * Application Service Providers...
          */
